@@ -1,0 +1,20 @@
+@tailwind based;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
